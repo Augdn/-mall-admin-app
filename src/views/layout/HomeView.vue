@@ -12,6 +12,7 @@ import rightMenu from '@/views/layout/components/rightMenu.vue';
 import sildeNav from '@/views/layout/components/sildeNav.vue';
 
 export default {
+  name: 'HomeView',
   data() {
     return {
 
