@@ -11,7 +11,7 @@
           </a-breadcrumb>
         </div>
         <ul class="use-info">
-            <li>asdasd
+            <li>{{$store.state.user.username}}
               <a-icon type="down"></a-icon>
             </li>
             <li>退出</li>
