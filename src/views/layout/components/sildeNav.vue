@@ -14,7 +14,7 @@
             <li>{{$store.state.user.username}}
               <a-icon type="down"></a-icon>
             </li>
-            <li>退出</li>
+            <li @click="logout" @KeyDown={this.handleKeyDown}>退出</li>
         </ul>
       </div>
 </template>
@@ -24,6 +24,12 @@ export default {
   methods: {
     toggleCollapsed() {
       this.$store.dispatch('changeCollapsed');
+    },
+    logout() {
+      this.$router.push({
+        name: 'Login',
+      });
+      this.$store.dispatch('loginOut');
     },
   },
 };
