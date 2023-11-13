@@ -14,7 +14,7 @@
             <li>{{$store.state.user.username}}
               <a-icon type="down"></a-icon>
             </li>
-            <li @click="logout" @KeyDown={this.handleKeyDown}>退出</li>
+            <li @click="logout" @KeyDown=xxx>退出</li>
         </ul>
       </div>
 </template>
