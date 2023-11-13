@@ -10,7 +10,7 @@
     </a-form-model-item>
     <a-form-model-item :wrapper-col="{ span: 22, offset:  8}">
       <a-button type="primary" @click="submitForm('loginForm')"> 提交 </a-button>
-      <a-button style="margin-left: 10px" @click="resetForm('loginForm')"> 重置 </a-button>
+      <a-button style="margin-left: 10px" @click="resetForm('loginForm')"> 重置1 </a-button>
     </a-form-model-item>
   </a-form-model>
   </div>
